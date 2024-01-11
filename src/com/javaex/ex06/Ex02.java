@@ -65,9 +65,9 @@ public class Ex02 {
 		String s03 = null;
 		
 		if("안녕".equals(s03)) {
-			System.out.println("value값(내용물) 같음");
+			System.out.println("값(내용물) 같음");
 		}else {
-			System.out.println("value값(내용물) 다름");
+			System.out.println("값(내용물) 다름");
 		}
 		
 		
