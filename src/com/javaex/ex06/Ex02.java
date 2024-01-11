@@ -33,13 +33,16 @@ public class Ex02 {
 		System.out.println("=======================");
 		
 		String str = "Hello JAVA!";
-		System.out.println(str.substring(3));
-		System.out.println(str.substring(1, 7));
 		
+		String result01 = str.substring(3);
+		String result02 = str.substring(1, 7);
+		System.out.println(result01);
+		System.out.println(result02);
 		
+		char result03 = str.charAt(8);
+		System.out.println(result03);
 		
-		
-		
+		System.out.println(str.toString());
 		
 		
 		
