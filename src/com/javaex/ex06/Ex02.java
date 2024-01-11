@@ -44,6 +44,34 @@ public class Ex02 {
 		
 		System.out.println(str.toString());
 		
+		System.out.println("=======================");
+		
+		String s01 = new String("안녕");
+		String s02 = new String("안녕");
+		
+		if(s01 == s02) {
+			System.out.println("주소만 같음 - 값(내용물)은 다름");
+		}else {
+			System.out.println("주소가 다름");
+		}
+		
+		if(s01.equals(s02)) {
+			System.out.println("글자가 같음");
+		}else {
+			System.out.println("글자가 다름");
+		}
+		
+		System.out.println("=======================");
+		String s03 = null;
+		
+		if("안녕".equals(s03)) {
+			System.out.println("value값(내용물) 같음");
+		}else {
+			System.out.println("value값(내용물) 다름");
+		}
+		
+		
+		
 		
 		
 	}
